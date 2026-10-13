@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lab 06: Your First Continuous Integration (CI) Pipeline
 
 - **Student Name:** Ali Ul Murtaza Alvi
@@ -42,3 +43,6 @@ jobs:
           name: devops-pipeline
           path: '*.tgz'
           if-no-files-found: error
+=======
+# devops-project-faisalandali
+>>>>>>> e8ab4af (Initial commit)
