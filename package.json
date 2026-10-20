@@ -1,5 +1,5 @@
 {
-  "name": "devops-pipeline",
+  "name": "@aliulmurtazaalvi/devops-pipeline",
   "version": "1.1.0",
   "description": "Renders the course Markdown sources into HTML pages.",
   "main": "tools/build.js",
@@ -13,6 +13,13 @@
   "scripts": {
     "build": "node tools/build.js",
     "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliulmurtazaalvi/devops-project-team-faisal-ali.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
