@@ -17,3 +17,6 @@ test('every page is real HTML and not raw Markdown', () => {
     assert.doesNotMatch(html, /^# /m);
   }
 });
+test('breaking the gate', () => {
+  assert.strictEqual(1, 2, "Intentional failure to trigger merge block");
+});
