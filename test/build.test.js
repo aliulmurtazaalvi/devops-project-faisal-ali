@@ -1,11 +1,7 @@
+// test/build.test.js — runs on Node's built-in test runner. No test framework.
 const { test } = require('node:test');
 const assert = require('node:assert');
 const fs = require('fs');
-
-// Add this intentional failure for Task 3
-test('intentional failing test for CI', () => {
-  assert.strictEqual(1, 2, "Intentional failure for CI test");
-});
 
 const pages = fs.readdirSync('out').filter((f) => f.endsWith('.html'));
 
