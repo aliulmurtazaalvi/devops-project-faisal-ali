@@ -2,3 +2,5 @@ out/
 *.tgz
 node_modules/
 .npmrc
+coverage/
+coverage/
