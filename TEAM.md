@@ -1,0 +1,2 @@
+- Ali Ul Murtaza Alvi: CI/CD Pipeline & Build Configuration
+- Mirza M. Faisal Baig: Deployment & Environment Management

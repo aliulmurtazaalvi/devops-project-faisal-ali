@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Lab 06: Your First Continuous Integration (CI) Pipeline
 
 - **Student Name:** Ali Ul Murtaza Alvi
@@ -46,3 +47,8 @@ jobs:
 =======
 # devops-project-faisalandali
 >>>>>>> e8ab4af (Initial commit)
+=======
+- Ali Ul Murtaza Alvi (23-NTU-CS-FL-1244)
+- Mirza M. Faisal Baig (23-NTU-CS-FL-1175)
+Reviews must be answered within 24 hours (one working day).
+>>>>>>> 8adfe8e (Initialize project documentation and gitignore)
