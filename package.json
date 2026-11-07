@@ -12,11 +12,12 @@
   ],
   "scripts": {
     "build": "node tools/build.js",
-    "test": "node --test"
+    "test": "node --test",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aliulmurtazaalvi/devops-project-faisalandali.git"
+    "url": "git+https://github.com/aliulmurtazaalvi/devops-project-team-faisal-ali.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -27,5 +28,10 @@
   "type": "commonjs",
   "dependencies": {
     "markdown-it": "^15.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0"
   }
 }

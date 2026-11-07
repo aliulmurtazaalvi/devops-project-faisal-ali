@@ -1,8 +1,12 @@
 out/
+<<<<<<< HEAD
+*.tgz
+node_modules/
+.npmrc
+coverage/
+coverage/
+=======
 *.log
 node_modules/
 .env
-node_modules/
-out/
-*.tgz
-.npmrc
+>>>>>>> 8adfe8e (Initialize project documentation and gitignore)
